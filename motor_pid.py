@@ -67,7 +67,7 @@ def main():
     controllers = [
         ("P controller", 10.0, 0.0, 0.0),
         ("PI controller", 10.0, 5.0, 0.0),
-        ("PID controller", 10.0, 5.0, 0.2),
+        ("PID controller", 5.0, 5.0, 0.2),
     ]
 
     plt.figure(figsize=(10, 6))
